@@ -1,9 +1,66 @@
 
-export default function App() {
+import "./App.css";
+
+function App() {
   return (
-      <main className="coming-soon">
-            <h1>COMING SOON<span>.</span></h1>
-                </main>
-                  );
-                  }
-                  
+      <main className="page">
+            <nav className="navbar">
+                    <a className="logo" href="#">YOURWISH<span>NF.</span></a>
+                            <span className="nav-label">BEAUTY • SKINCARE • SELF LOVE</span>
+                                  </nav>
+
+                                        <section className="hero">
+                                                <div className="hero-content">
+                                                          <span className="eyebrow">A LITTLE BEAUTY IS COMING YOUR WAY</span>
+                                                                    <h1>
+                                                                                Your glow.
+                                                                                            <br />
+                                                                                                        Your rules.
+                                                                                                                    <br />
+                                                                                                                                <em>Coming soon.</em>
+                                                                                                                                          </h1>
+
+                                                                                                                                                    <p className="description">
+                                                                                                                                                                Beauty that feels like you. Discover a new world of
+                                                                                                                                                                            self-care, confidence and everyday glow.
+                                                                                                                                                                                      </p>
+
+                                                                                                                                                                                                <a href="#notify" className="cta">
+                                                                                                                                                                                                            BE THE FIRST TO KNOW <span>↗</span>
+                                                                                                                                                                                                                      </a>
+
+                                                                                                                                                                                                                                <p className="small-note">
+                                                                                                                                                                                                                                            Something beautiful is on its way.
+                                                                                                                                                                                                                                                      </p>
+                                                                                                                                                                                                                                                              </div>
+
+                                                                                                                                                                                                                                                                      <div className="hero-image">
+                                                                                                                                                                                                                                                                                <div className="image-tag">YOUR DAILY DOSE OF GLOW ✦</div>
+                                                                                                                                                                                                                                                                                        </div>
+                                                                                                                                                                                                                                                                                              </section>
+
+                                                                                                                                                                                                                                                                                                    <section className="bottom" id="notify">
+                                                                                                                                                                                                                                                                                                            <div>
+                                                                                                                                                                                                                                                                                                                      <span className="eyebrow">THE COUNTDOWN TO BEAUTY</span>
+                                                                                                                                                                                                                                                                                                                                <h2>Good things take glow.</h2>
+                                                                                                                                                                                                                                                                                                                                          <p>Stay close. Our beauty world is launching soon.</p>
+                                                                                                                                                                                                                                                                                                                                                  </div>
+
+                                                                                                                                                                                                                                                                                                                                                          <div className="social">
+                                                                                                                                                                                                                                                                                                                                                                    <span>FOLLOW OUR JOURNEY</span>
+                                                                                                                                                                                                                                                                                                                                                                              <a href="https://instagram.com/" target="_blank">
+                                                                                                                                                                                                                                                                                                                                                                                          INSTAGRAM ↗
+                                                                                                                                                                                                                                                                                                                                                                                                    </a>
+                                                                                                                                                                                                                                                                                                                                                                                                            </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                  </section>
+
+                                                                                                                                                                                                                                                                                                                                                                                                                        <footer>
+                                                                                                                                                                                                                                                                                                                                                                                                                                <span>© 2026 YOURWISHNF</span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                        <span>MADE WITH LOVE & BEAUTY ♡</span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                              </footer>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                  </main>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                    );
+                                                                                                                                                                                                                                                                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                    export default App;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                    
